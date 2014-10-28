@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"loading+main menu"</Description>
+      <LastState Value="0" Activated="0" RealAddress="01076CE8"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>Fallout3.exe+C76CE8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"loading"</Description>
+      <LastState Value="0" Activated="0" RealAddress="010746F8"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>Fallout3.exe+C746F8</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
