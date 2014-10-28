@@ -107,13 +107,13 @@ namespace LiveSplit.Fallout3
 
         void MemoryReadThread()
         {
-            Trace.WriteLine("[NoLoads] MemoryReadThread");
+            Debug.WriteLine("[NoLoads] MemoryReadThread");
 
             while (!_cancelSource.IsCancellationRequested)
             {
                 try
                 {
-                    Trace.WriteLine("[NoLoads] Waiting for Fallout3.exe...");
+                    Debug.WriteLine("[NoLoads] Waiting for Fallout3.exe...");
 
                     Process game;
                     while ((game = GetGameProcess()) == null)
@@ -125,7 +125,7 @@ namespace LiveSplit.Fallout3
                         }
                     }
 
-                    Trace.WriteLine("[NoLoads] Got Fallout3.exe!");
+                    Debug.WriteLine("[NoLoads] Got Fallout3.exe!");
 
                     uint frameCounter = 0;
 
@@ -150,7 +150,7 @@ namespace LiveSplit.Fallout3
                         {
                             if (isLoading)
                             {
-                                Trace.WriteLine(String.Format("[NoLoads] Load Start - {0}", frameCounter));
+                                Debug.WriteLine(String.Format("[NoLoads] Load Start - {0}", frameCounter));
 
                                 loadingStarted = true;
 
@@ -165,7 +165,7 @@ namespace LiveSplit.Fallout3
                             }
                             else
                             {
-                                Trace.WriteLine(String.Format("[NoLoads] Load End - {0}", frameCounter));
+                                Debug.WriteLine(String.Format("[NoLoads] Load End - {0}", frameCounter));
 
                                 if (loadingStarted)
                                 {
@@ -199,7 +199,7 @@ namespace LiveSplit.Fallout3
                 }
                 catch (Exception ex)
                 {
-                    Trace.WriteLine(ex.ToString());
+                    Debug.WriteLine(ex.ToString());
                     Thread.Sleep(1000);
                 }
             }

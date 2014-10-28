@@ -21,14 +21,14 @@ namespace LiveSplit.Fallout3
 
         private const bool DEFAULT_DRAWWITHOUTLOADS = true;
         private const bool DEFAULT_AUTOSTART = true;
-        private const bool DEFAULT_SPECIAL = false;
-        private const bool DEFAULT_TARGETPRACTICE = false;
-        private const bool DEFAULT_ESCAPE = false;
-        private const bool DEFAULT_WALKING = false;
-        private const bool DEFAULT_VAULT87 = false;
-        private const bool DEFAULT_FLASHBANG = false;
-        private const bool DEFAULT_ESCAPE2 = false;
-        private const bool DEFAULT_WALKING2 = false;
+        private const bool DEFAULT_SPECIAL = true;
+        private const bool DEFAULT_TARGETPRACTICE = true;
+        private const bool DEFAULT_ESCAPE = true;
+        private const bool DEFAULT_WALKING = true;
+        private const bool DEFAULT_VAULT87 = true;
+        private const bool DEFAULT_FLASHBANG = true;
+        private const bool DEFAULT_ESCAPE2 = true;
+        private const bool DEFAULT_WALKING2 = true;
         private const bool DEFAULT_MEMORIAL = true;
 
         public Fallout3Settings()
