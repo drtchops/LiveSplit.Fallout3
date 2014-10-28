@@ -1,6 +1,6 @@
-﻿namespace LiveSplit.Skyrim
+﻿namespace LiveSplit.Fallout3
 {
-    partial class SkyrimSettings
+    partial class Fallout3Settings
     {
         /// <summary>
         /// Required designer variable.
@@ -51,9 +51,9 @@
             this.gbDisplayAlternateTiming.SuspendLayout();
             this.tlpDisplayAlternateTiming.SuspendLayout();
             this.SuspendLayout();
-            // 
+            //
             // tlpMain
-            // 
+            //
             this.tlpMain.ColumnCount = 1;
             this.tlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpMain.Controls.Add(this.gbStartSplits, 0, 0);
@@ -69,9 +69,9 @@
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpMain.Size = new System.Drawing.Size(476, 365);
             this.tlpMain.TabIndex = 0;
-            // 
+            //
             // gbStartSplits
-            // 
+            //
             this.gbStartSplits.AutoSize = true;
             this.gbStartSplits.Controls.Add(this.tlpStartSplits);
             this.gbStartSplits.Dock = System.Windows.Forms.DockStyle.Top;
@@ -81,9 +81,9 @@
             this.gbStartSplits.TabIndex = 5;
             this.gbStartSplits.TabStop = false;
             this.gbStartSplits.Text = "Start Auto-splits";
-            // 
+            //
             // tlpStartSplits
-            // 
+            //
             this.tlpStartSplits.AutoSize = true;
             this.tlpStartSplits.BackColor = System.Drawing.Color.Transparent;
             this.tlpStartSplits.ColumnCount = 1;
@@ -98,9 +98,9 @@
             this.tlpStartSplits.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tlpStartSplits.Size = new System.Drawing.Size(464, 46);
             this.tlpStartSplits.TabIndex = 4;
-            // 
+            //
             // chkHelgen
-            // 
+            //
             this.chkHelgen.AutoSize = true;
             this.chkHelgen.Location = new System.Drawing.Point(3, 26);
             this.chkHelgen.Name = "chkHelgen";
@@ -108,9 +108,9 @@
             this.chkHelgen.TabIndex = 7;
             this.chkHelgen.Text = "Helgen";
             this.chkHelgen.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkAutoStart
-            // 
+            //
             this.chkAutoStart.AutoSize = true;
             this.chkAutoStart.Checked = true;
             this.chkAutoStart.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -120,9 +120,9 @@
             this.chkAutoStart.TabIndex = 4;
             this.chkAutoStart.Text = "Start / Reset";
             this.chkAutoStart.UseVisualStyleBackColor = true;
-            // 
+            //
             // gbEndSplits
-            // 
+            //
             this.gbEndSplits.AutoSize = true;
             this.gbEndSplits.Controls.Add(this.tlpEndSplits);
             this.gbEndSplits.Dock = System.Windows.Forms.DockStyle.Top;
@@ -132,9 +132,9 @@
             this.gbEndSplits.TabIndex = 7;
             this.gbEndSplits.TabStop = false;
             this.gbEndSplits.Text = "End Auto-splits";
-            // 
+            //
             // tlpEndSplits
-            // 
+            //
             this.tlpEndSplits.AutoSize = true;
             this.tlpEndSplits.BackColor = System.Drawing.Color.Transparent;
             this.tlpEndSplits.ColumnCount = 1;
@@ -155,9 +155,9 @@
             this.tlpEndSplits.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tlpEndSplits.Size = new System.Drawing.Size(464, 115);
             this.tlpEndSplits.TabIndex = 4;
-            // 
+            //
             // chkAlduinDefeated
-            // 
+            //
             this.chkAlduinDefeated.AutoSize = true;
             this.chkAlduinDefeated.Checked = true;
             this.chkAlduinDefeated.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -167,9 +167,9 @@
             this.chkAlduinDefeated.TabIndex = 5;
             this.chkAlduinDefeated.Text = "Alduin\'s Defeat (Main Quest)";
             this.chkAlduinDefeated.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkCollege
-            // 
+            //
             this.chkCollege.AutoSize = true;
             this.chkCollege.Location = new System.Drawing.Point(3, 26);
             this.chkCollege.Name = "chkCollege";
@@ -177,9 +177,9 @@
             this.chkCollege.TabIndex = 10;
             this.chkCollege.Text = "[EXPERIMENTAL] College of Winterhold questline completion";
             this.chkCollege.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkCompanions
-            // 
+            //
             this.chkCompanions.AutoSize = true;
             this.chkCompanions.Location = new System.Drawing.Point(3, 49);
             this.chkCompanions.Name = "chkCompanions";
@@ -187,9 +187,9 @@
             this.chkCompanions.TabIndex = 8;
             this.chkCompanions.Text = "[EXPERIMENTAL] Companions questline completion";
             this.chkCompanions.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkThievesGuild
-            // 
+            //
             this.chkThievesGuild.AutoSize = true;
             this.chkThievesGuild.Location = new System.Drawing.Point(3, 95);
             this.chkThievesGuild.Name = "chkThievesGuild";
@@ -197,9 +197,9 @@
             this.chkThievesGuild.TabIndex = 9;
             this.chkThievesGuild.Text = "[EXPERIMENTAL] Thieves\' Guild questline completion";
             this.chkThievesGuild.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkDarkBrotherhood
-            // 
+            //
             this.chkDarkBrotherhood.AutoSize = true;
             this.chkDarkBrotherhood.Location = new System.Drawing.Point(3, 72);
             this.chkDarkBrotherhood.Name = "chkDarkBrotherhood";
@@ -207,9 +207,9 @@
             this.chkDarkBrotherhood.TabIndex = 7;
             this.chkDarkBrotherhood.Text = "[EXPERIMENTAL] Dark Brotherhood questline completion";
             this.chkDarkBrotherhood.UseVisualStyleBackColor = true;
-            // 
+            //
             // gbDisplayAlternateTiming
-            // 
+            //
             this.gbDisplayAlternateTiming.AutoSize = true;
             this.gbDisplayAlternateTiming.Controls.Add(this.tlpDisplayAlternateTiming);
             this.gbDisplayAlternateTiming.Dock = System.Windows.Forms.DockStyle.Top;
@@ -219,9 +219,9 @@
             this.gbDisplayAlternateTiming.TabIndex = 9;
             this.gbDisplayAlternateTiming.TabStop = false;
             this.gbDisplayAlternateTiming.Text = "Show Alternate Timing Method";
-            // 
+            //
             // tlpDisplayAlternateTiming
-            // 
+            //
             this.tlpDisplayAlternateTiming.AutoSize = true;
             this.tlpDisplayAlternateTiming.ColumnCount = 1;
             this.tlpDisplayAlternateTiming.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -234,9 +234,9 @@
             this.tlpDisplayAlternateTiming.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpDisplayAlternateTiming.Size = new System.Drawing.Size(464, 23);
             this.tlpDisplayAlternateTiming.TabIndex = 0;
-            // 
+            //
             // chkDisplayWithoutLoads
-            // 
+            //
             this.chkDisplayWithoutLoads.AutoSize = true;
             this.chkDisplayWithoutLoads.Checked = true;
             this.chkDisplayWithoutLoads.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -246,13 +246,13 @@
             this.chkDisplayWithoutLoads.TabIndex = 0;
             this.chkDisplayWithoutLoads.Text = "Enable";
             this.chkDisplayWithoutLoads.UseVisualStyleBackColor = true;
-            // 
-            // SkyrimSettings
-            // 
+            //
+            // Fallout3Settings
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tlpMain);
-            this.Name = "SkyrimSettings";
+            this.Name = "Fallout3Settings";
             this.Size = new System.Drawing.Size(476, 443);
             this.tlpMain.ResumeLayout(false);
             this.tlpMain.PerformLayout();

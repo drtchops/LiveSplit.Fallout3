@@ -3,9 +3,9 @@ using System.Reflection;
 using System.Windows.Forms;
 using System.Xml;
 
-namespace LiveSplit.Skyrim
+namespace LiveSplit.Fallout3
 {
-    public partial class SkyrimSettings : UserControl
+    public partial class Fallout3Settings : UserControl
     {
         public bool DrawWithoutLoads { get; set; }
         public bool AutoStart { get; set; }
@@ -31,7 +31,7 @@ namespace LiveSplit.Skyrim
         private const bool DEFAULT_WALKING2 = false;
         private const bool DEFAULT_MEMORIAL = true;
 
-        public SkyrimSettings()
+        public Fallout3Settings()
         {
             InitializeComponent();
 
