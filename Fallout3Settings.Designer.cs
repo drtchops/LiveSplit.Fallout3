@@ -49,9 +49,9 @@
             this.gbEndSplits.SuspendLayout();
             this.tlpEndSplits.SuspendLayout();
             this.SuspendLayout();
-            // 
+            //
             // tlpMain
-            // 
+            //
             this.tlpMain.ColumnCount = 1;
             this.tlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpMain.Controls.Add(this.gbStartSplits, 0, 0);
@@ -66,9 +66,9 @@
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpMain.Size = new System.Drawing.Size(476, 309);
             this.tlpMain.TabIndex = 0;
-            // 
+            //
             // gbStartSplits
-            // 
+            //
             this.gbStartSplits.AutoSize = true;
             this.gbStartSplits.Controls.Add(this.tlpStartSplits);
             this.gbStartSplits.Dock = System.Windows.Forms.DockStyle.Top;
@@ -78,9 +78,9 @@
             this.gbStartSplits.TabIndex = 5;
             this.gbStartSplits.TabStop = false;
             this.gbStartSplits.Text = "Start Auto-splits";
-            // 
+            //
             // tlpStartSplits
-            // 
+            //
             this.tlpStartSplits.AutoSize = true;
             this.tlpStartSplits.BackColor = System.Drawing.Color.Transparent;
             this.tlpStartSplits.ColumnCount = 1;
@@ -94,9 +94,9 @@
             this.tlpStartSplits.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tlpStartSplits.Size = new System.Drawing.Size(464, 23);
             this.tlpStartSplits.TabIndex = 4;
-            // 
+            //
             // chkAutoStart
-            // 
+            //
             this.chkAutoStart.AutoSize = true;
             this.chkAutoStart.Checked = true;
             this.chkAutoStart.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -106,9 +106,9 @@
             this.chkAutoStart.TabIndex = 4;
             this.chkAutoStart.Text = "Start / Reset";
             this.chkAutoStart.UseVisualStyleBackColor = true;
-            // 
+            //
             // gbEndSplits
-            // 
+            //
             this.gbEndSplits.AutoSize = true;
             this.gbEndSplits.Controls.Add(this.tlpEndSplits);
             this.gbEndSplits.Dock = System.Windows.Forms.DockStyle.Top;
@@ -118,9 +118,9 @@
             this.gbEndSplits.TabIndex = 7;
             this.gbEndSplits.TabStop = false;
             this.gbEndSplits.Text = "End Auto-splits (Not yet working)";
-            // 
+            //
             // tlpEndSplits
-            // 
+            //
             this.tlpEndSplits.AutoSize = true;
             this.tlpEndSplits.BackColor = System.Drawing.Color.Transparent;
             this.tlpEndSplits.ColumnCount = 1;
@@ -152,9 +152,9 @@
             this.tlpEndSplits.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpEndSplits.Size = new System.Drawing.Size(464, 186);
             this.tlpEndSplits.TabIndex = 4;
-            // 
+            //
             // chkVault87
-            // 
+            //
             this.chkVault87.AutoSize = true;
             this.chkVault87.Checked = true;
             this.chkVault87.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -164,9 +164,9 @@
             this.chkVault87.TabIndex = 10;
             this.chkVault87.Text = "Vault 87";
             this.chkVault87.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkWalking
-            // 
+            //
             this.chkWalking.AutoSize = true;
             this.chkWalking.Checked = true;
             this.chkWalking.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -176,9 +176,9 @@
             this.chkWalking.TabIndex = 9;
             this.chkWalking.Text = "Walking";
             this.chkWalking.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkTargetPractice
-            // 
+            //
             this.chkTargetPractice.AutoSize = true;
             this.chkTargetPractice.Checked = true;
             this.chkTargetPractice.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -188,9 +188,9 @@
             this.chkTargetPractice.TabIndex = 6;
             this.chkTargetPractice.Text = "Target Practice";
             this.chkTargetPractice.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkMemorial
-            // 
+            //
             this.chkMemorial.AutoSize = true;
             this.chkMemorial.Checked = true;
             this.chkMemorial.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -200,9 +200,9 @@
             this.chkMemorial.TabIndex = 5;
             this.chkMemorial.Text = "Memorial";
             this.chkMemorial.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkWalking2
-            // 
+            //
             this.chkWalking2.AutoSize = true;
             this.chkWalking2.Checked = true;
             this.chkWalking2.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -212,9 +212,9 @@
             this.chkWalking2.TabIndex = 13;
             this.chkWalking2.Text = "Walking 2";
             this.chkWalking2.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkSPECIAL
-            // 
+            //
             this.chkSPECIAL.AutoSize = true;
             this.chkSPECIAL.Checked = true;
             this.chkSPECIAL.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -224,9 +224,9 @@
             this.chkSPECIAL.TabIndex = 7;
             this.chkSPECIAL.Text = "S.P.E.C.I.A.L.";
             this.chkSPECIAL.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkEscape
-            // 
+            //
             this.chkEscape.AutoSize = true;
             this.chkEscape.Checked = true;
             this.chkEscape.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -236,9 +236,9 @@
             this.chkEscape.TabIndex = 8;
             this.chkEscape.Text = "Escape";
             this.chkEscape.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkFlashbang
-            // 
+            //
             this.chkFlashbang.AutoSize = true;
             this.chkFlashbang.Checked = true;
             this.chkFlashbang.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -248,9 +248,9 @@
             this.chkFlashbang.TabIndex = 11;
             this.chkFlashbang.Text = "Flashbang";
             this.chkFlashbang.UseVisualStyleBackColor = true;
-            // 
+            //
             // chkEscape2
-            // 
+            //
             this.chkEscape2.AutoSize = true;
             this.chkEscape2.Checked = true;
             this.chkEscape2.CheckState = System.Windows.Forms.CheckState.Checked;
@@ -260,9 +260,9 @@
             this.chkEscape2.TabIndex = 12;
             this.chkEscape2.Text = "Escape2";
             this.chkEscape2.UseVisualStyleBackColor = true;
-            // 
+            //
             // Fallout3Settings
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tlpMain);
