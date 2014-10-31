@@ -7,7 +7,6 @@ namespace LiveSplit.Fallout3
 {
     public partial class Fallout3Settings : UserControl
     {
-        public bool DrawWithoutLoads { get; set; }
         public bool AutoStart { get; set; }
         public bool SPECIAL { get; set; }
         public bool TargetPractice { get; set; }
@@ -19,7 +18,6 @@ namespace LiveSplit.Fallout3
         public bool Walking2 { get; set; }
         public bool Memorial { get; set; }
 
-        private const bool DEFAULT_DRAWWITHOUTLOADS = true;
         private const bool DEFAULT_AUTOSTART = true;
         private const bool DEFAULT_SPECIAL = true;
         private const bool DEFAULT_TARGETPRACTICE = true;
@@ -35,7 +33,6 @@ namespace LiveSplit.Fallout3
         {
             InitializeComponent();
 
-            this.chkDisplayWithoutLoads.DataBindings.Add("Checked", this, "DrawWithoutLoads", false, DataSourceUpdateMode.OnPropertyChanged);
             this.chkSPECIAL.DataBindings.Add("Checked", this, "SPECIAL", false, DataSourceUpdateMode.OnPropertyChanged);
             this.chkTargetPractice.DataBindings.Add("Checked", this, "TargetPractice", false, DataSourceUpdateMode.OnPropertyChanged);
             this.chkEscape.DataBindings.Add("Checked", this, "Escape", false, DataSourceUpdateMode.OnPropertyChanged);
@@ -47,7 +44,6 @@ namespace LiveSplit.Fallout3
             this.chkMemorial.DataBindings.Add("Checked", this, "Memorial", false, DataSourceUpdateMode.OnPropertyChanged);
 
             // defaults
-            this.DrawWithoutLoads = DEFAULT_DRAWWITHOUTLOADS;
             this.AutoStart = DEFAULT_AUTOSTART;
             this.SPECIAL = DEFAULT_SPECIAL;
             this.TargetPractice = DEFAULT_TARGETPRACTICE;
@@ -66,7 +62,6 @@ namespace LiveSplit.Fallout3
 
             settingsNode.AppendChild(ToElement(doc, "Version", Assembly.GetExecutingAssembly().GetName().Version.ToString(3)));
 
-            settingsNode.AppendChild(ToElement(doc, "DrawWithoutLoads", this.DrawWithoutLoads));
             settingsNode.AppendChild(ToElement(doc, "AutoStart", this.AutoStart));
             settingsNode.AppendChild(ToElement(doc, "SPECIAL", this.SPECIAL));
             settingsNode.AppendChild(ToElement(doc, "TargetPractice", this.TargetPractice));
@@ -83,7 +78,6 @@ namespace LiveSplit.Fallout3
 
         public void SetSettings(XmlNode settings)
         {
-            this.DrawWithoutLoads = ParseBool(settings, "DrawWithoutLoads", DEFAULT_DRAWWITHOUTLOADS);
             this.AutoStart = ParseBool(settings, "AutoStart", DEFAULT_AUTOSTART);
             this.SPECIAL = ParseBool(settings, "SPECIAL", DEFAULT_SPECIAL);
             this.TargetPractice = ParseBool(settings, "TargetPractice", DEFAULT_TARGETPRACTICE);

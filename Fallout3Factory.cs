@@ -30,8 +30,6 @@ namespace LiveSplit.Fallout3
 
         public IComponent Create(LiveSplitState state)
         {
-            return new Fallout3Component(state, true);
-
             // workaround for livesplit 1.4 oversight where components can be loaded from two places at once
             // remove all this junk when they fix it
             string caller = new StackFrame(1).GetMethod().Name;
@@ -56,7 +54,6 @@ namespace LiveSplit.Fallout3
 
                 throw new Exception("Component already loaded.");
             }
-
             return (_instance = new Fallout3Component(state, createAsLayoutComponent));
         }
 

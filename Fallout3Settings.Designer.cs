@@ -34,25 +34,20 @@
             this.chkAutoStart = new System.Windows.Forms.CheckBox();
             this.gbEndSplits = new System.Windows.Forms.GroupBox();
             this.tlpEndSplits = new System.Windows.Forms.TableLayoutPanel();
-            this.gbDisplayAlternateTiming = new System.Windows.Forms.GroupBox();
-            this.tlpDisplayAlternateTiming = new System.Windows.Forms.TableLayoutPanel();
-            this.chkDisplayWithoutLoads = new System.Windows.Forms.CheckBox();
-            this.chkMemorial = new System.Windows.Forms.CheckBox();
+            this.chkVault87 = new System.Windows.Forms.CheckBox();
+            this.chkWalking = new System.Windows.Forms.CheckBox();
             this.chkTargetPractice = new System.Windows.Forms.CheckBox();
+            this.chkMemorial = new System.Windows.Forms.CheckBox();
+            this.chkWalking2 = new System.Windows.Forms.CheckBox();
             this.chkSPECIAL = new System.Windows.Forms.CheckBox();
             this.chkEscape = new System.Windows.Forms.CheckBox();
-            this.chkWalking = new System.Windows.Forms.CheckBox();
-            this.chkVault87 = new System.Windows.Forms.CheckBox();
             this.chkFlashbang = new System.Windows.Forms.CheckBox();
             this.chkEscape2 = new System.Windows.Forms.CheckBox();
-            this.chkWalking2 = new System.Windows.Forms.CheckBox();
             this.tlpMain.SuspendLayout();
             this.gbStartSplits.SuspendLayout();
             this.tlpStartSplits.SuspendLayout();
             this.gbEndSplits.SuspendLayout();
             this.tlpEndSplits.SuspendLayout();
-            this.gbDisplayAlternateTiming.SuspendLayout();
-            this.tlpDisplayAlternateTiming.SuspendLayout();
             this.SuspendLayout();
             // 
             // tlpMain
@@ -61,7 +56,6 @@
             this.tlpMain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpMain.Controls.Add(this.gbStartSplits, 0, 0);
             this.tlpMain.Controls.Add(this.gbEndSplits, 0, 1);
-            this.tlpMain.Controls.Add(this.gbDisplayAlternateTiming, 0, 2);
             this.tlpMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.tlpMain.Location = new System.Drawing.Point(0, 0);
             this.tlpMain.Name = "tlpMain";
@@ -70,7 +64,7 @@
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tlpMain.Size = new System.Drawing.Size(476, 365);
+            this.tlpMain.Size = new System.Drawing.Size(476, 309);
             this.tlpMain.TabIndex = 0;
             // 
             // gbStartSplits
@@ -123,7 +117,7 @@
             this.gbEndSplits.Size = new System.Drawing.Size(470, 205);
             this.gbEndSplits.TabIndex = 7;
             this.gbEndSplits.TabStop = false;
-            this.gbEndSplits.Text = "End Auto-splits";
+            this.gbEndSplits.Text = "End Auto-splits (Not yet working)";
             // 
             // tlpEndSplits
             // 
@@ -159,44 +153,41 @@
             this.tlpEndSplits.Size = new System.Drawing.Size(464, 186);
             this.tlpEndSplits.TabIndex = 4;
             // 
-            // gbDisplayAlternateTiming
+            // chkVault87
             // 
-            this.gbDisplayAlternateTiming.AutoSize = true;
-            this.gbDisplayAlternateTiming.Controls.Add(this.tlpDisplayAlternateTiming);
-            this.gbDisplayAlternateTiming.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gbDisplayAlternateTiming.Location = new System.Drawing.Point(3, 262);
-            this.gbDisplayAlternateTiming.Name = "gbDisplayAlternateTiming";
-            this.gbDisplayAlternateTiming.Size = new System.Drawing.Size(470, 42);
-            this.gbDisplayAlternateTiming.TabIndex = 9;
-            this.gbDisplayAlternateTiming.TabStop = false;
-            this.gbDisplayAlternateTiming.Text = "Show Alternate Timing Method";
+            this.chkVault87.AutoSize = true;
+            this.chkVault87.Checked = true;
+            this.chkVault87.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkVault87.Location = new System.Drawing.Point(3, 89);
+            this.chkVault87.Name = "chkVault87";
+            this.chkVault87.Size = new System.Drawing.Size(65, 14);
+            this.chkVault87.TabIndex = 10;
+            this.chkVault87.Text = "Vault 87";
+            this.chkVault87.UseVisualStyleBackColor = true;
             // 
-            // tlpDisplayAlternateTiming
+            // chkWalking
             // 
-            this.tlpDisplayAlternateTiming.AutoSize = true;
-            this.tlpDisplayAlternateTiming.ColumnCount = 1;
-            this.tlpDisplayAlternateTiming.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tlpDisplayAlternateTiming.Controls.Add(this.chkDisplayWithoutLoads, 0, 0);
-            this.tlpDisplayAlternateTiming.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlpDisplayAlternateTiming.Location = new System.Drawing.Point(3, 16);
-            this.tlpDisplayAlternateTiming.Name = "tlpDisplayAlternateTiming";
-            this.tlpDisplayAlternateTiming.RowCount = 1;
-            this.tlpDisplayAlternateTiming.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tlpDisplayAlternateTiming.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tlpDisplayAlternateTiming.Size = new System.Drawing.Size(464, 23);
-            this.tlpDisplayAlternateTiming.TabIndex = 0;
+            this.chkWalking.AutoSize = true;
+            this.chkWalking.Checked = true;
+            this.chkWalking.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkWalking.Location = new System.Drawing.Point(3, 69);
+            this.chkWalking.Name = "chkWalking";
+            this.chkWalking.Size = new System.Drawing.Size(65, 14);
+            this.chkWalking.TabIndex = 9;
+            this.chkWalking.Text = "Walking";
+            this.chkWalking.UseVisualStyleBackColor = true;
             // 
-            // chkDisplayWithoutLoads
+            // chkTargetPractice
             // 
-            this.chkDisplayWithoutLoads.AutoSize = true;
-            this.chkDisplayWithoutLoads.Checked = true;
-            this.chkDisplayWithoutLoads.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkDisplayWithoutLoads.Location = new System.Drawing.Point(3, 3);
-            this.chkDisplayWithoutLoads.Name = "chkDisplayWithoutLoads";
-            this.chkDisplayWithoutLoads.Size = new System.Drawing.Size(59, 17);
-            this.chkDisplayWithoutLoads.TabIndex = 0;
-            this.chkDisplayWithoutLoads.Text = "Enable";
-            this.chkDisplayWithoutLoads.UseVisualStyleBackColor = true;
+            this.chkTargetPractice.AutoSize = true;
+            this.chkTargetPractice.Checked = true;
+            this.chkTargetPractice.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTargetPractice.Location = new System.Drawing.Point(3, 26);
+            this.chkTargetPractice.Name = "chkTargetPractice";
+            this.chkTargetPractice.Size = new System.Drawing.Size(99, 17);
+            this.chkTargetPractice.TabIndex = 6;
+            this.chkTargetPractice.Text = "Target Practice";
+            this.chkTargetPractice.UseVisualStyleBackColor = true;
             // 
             // chkMemorial
             // 
@@ -210,17 +201,17 @@
             this.chkMemorial.Text = "Memorial";
             this.chkMemorial.UseVisualStyleBackColor = true;
             // 
-            // chkTargetPractice
+            // chkWalking2
             // 
-            this.chkTargetPractice.AutoSize = true;
-            this.chkTargetPractice.Checked = true;
-            this.chkTargetPractice.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkTargetPractice.Location = new System.Drawing.Point(3, 26);
-            this.chkTargetPractice.Name = "chkTargetPractice";
-            this.chkTargetPractice.Size = new System.Drawing.Size(99, 17);
-            this.chkTargetPractice.TabIndex = 6;
-            this.chkTargetPractice.Text = "Target Practice";
-            this.chkTargetPractice.UseVisualStyleBackColor = true;
+            this.chkWalking2.AutoSize = true;
+            this.chkWalking2.Checked = true;
+            this.chkWalking2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkWalking2.Location = new System.Drawing.Point(3, 149);
+            this.chkWalking2.Name = "chkWalking2";
+            this.chkWalking2.Size = new System.Drawing.Size(74, 14);
+            this.chkWalking2.TabIndex = 13;
+            this.chkWalking2.Text = "Walking 2";
+            this.chkWalking2.UseVisualStyleBackColor = true;
             // 
             // chkSPECIAL
             // 
@@ -246,30 +237,6 @@
             this.chkEscape.Text = "Escape";
             this.chkEscape.UseVisualStyleBackColor = true;
             // 
-            // chkWalking
-            // 
-            this.chkWalking.AutoSize = true;
-            this.chkWalking.Checked = true;
-            this.chkWalking.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkWalking.Location = new System.Drawing.Point(3, 69);
-            this.chkWalking.Name = "chkWalking";
-            this.chkWalking.Size = new System.Drawing.Size(65, 14);
-            this.chkWalking.TabIndex = 9;
-            this.chkWalking.Text = "Walking";
-            this.chkWalking.UseVisualStyleBackColor = true;
-            // 
-            // chkVault87
-            // 
-            this.chkVault87.AutoSize = true;
-            this.chkVault87.Checked = true;
-            this.chkVault87.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkVault87.Location = new System.Drawing.Point(3, 89);
-            this.chkVault87.Name = "chkVault87";
-            this.chkVault87.Size = new System.Drawing.Size(65, 14);
-            this.chkVault87.TabIndex = 10;
-            this.chkVault87.Text = "Vault 87";
-            this.chkVault87.UseVisualStyleBackColor = true;
-            // 
             // chkFlashbang
             // 
             this.chkFlashbang.AutoSize = true;
@@ -294,18 +261,6 @@
             this.chkEscape2.Text = "Escape2";
             this.chkEscape2.UseVisualStyleBackColor = true;
             // 
-            // chkWalking2
-            // 
-            this.chkWalking2.AutoSize = true;
-            this.chkWalking2.Checked = true;
-            this.chkWalking2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkWalking2.Location = new System.Drawing.Point(3, 149);
-            this.chkWalking2.Name = "chkWalking2";
-            this.chkWalking2.Size = new System.Drawing.Size(74, 14);
-            this.chkWalking2.TabIndex = 13;
-            this.chkWalking2.Text = "Walking 2";
-            this.chkWalking2.UseVisualStyleBackColor = true;
-            // 
             // Fallout3Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -323,10 +278,6 @@
             this.gbEndSplits.PerformLayout();
             this.tlpEndSplits.ResumeLayout(false);
             this.tlpEndSplits.PerformLayout();
-            this.gbDisplayAlternateTiming.ResumeLayout(false);
-            this.gbDisplayAlternateTiming.PerformLayout();
-            this.tlpDisplayAlternateTiming.ResumeLayout(false);
-            this.tlpDisplayAlternateTiming.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -339,9 +290,6 @@
         private System.Windows.Forms.TableLayoutPanel tlpEndSplits;
         private System.Windows.Forms.TableLayoutPanel tlpStartSplits;
         private System.Windows.Forms.CheckBox chkAutoStart;
-        private System.Windows.Forms.CheckBox chkDisplayWithoutLoads;
-        private System.Windows.Forms.GroupBox gbDisplayAlternateTiming;
-        private System.Windows.Forms.TableLayoutPanel tlpDisplayAlternateTiming;
         private System.Windows.Forms.CheckBox chkMemorial;
         private System.Windows.Forms.CheckBox chkWalking2;
         private System.Windows.Forms.CheckBox chkEscape2;

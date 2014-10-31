@@ -50,7 +50,7 @@ namespace LiveSplit.Fallout3
 
         private enum ExpectedDllSizes
         {
-            Fallout3Steam = 27336704,
+            Fallout3Steam = 16166912,
             Fallout3Cracked = 26771456,
         }
 
@@ -68,7 +68,7 @@ namespace LiveSplit.Fallout3
         {
             splitStates = new bool[(int)SplitArea.Memorial + 1];
 
-            _isLoadingPtr = new DeepPointer(0x010746F8); // == 1 if a loadscreen is happening
+            _isLoadingPtr = new DeepPointer(0xC76CE8); // == 1 if a loadscreen is happening
             // _cellID = new DeepPointer(0x01738308, 0x4, 0x78, 0x670, 0xEC); // ID of the current cell
             // _world_XPtr = new DeepPointer(0x0172E864, 0x64); // X world position (cell)
             // _world_YPtr = new DeepPointer(0x0172E864, 0x68); // Y world position (cell)
@@ -214,10 +214,10 @@ namespace LiveSplit.Fallout3
                 return null;
             }
 
-            if (false && (game.MainModule.ModuleMemorySize != (int)ExpectedDllSizes.Fallout3Steam && game.MainModule.ModuleMemorySize != (int)ExpectedDllSizes.Fallout3Cracked))
+            if (game.MainModule.ModuleMemorySize != (int)ExpectedDllSizes.Fallout3Steam && game.MainModule.ModuleMemorySize != (int)ExpectedDllSizes.Fallout3Cracked)
             {
                 _ignorePIDs.Add(game.Id);
-                _uiThread.Send(d => MessageBox.Show("Unexpected game version. Fallout3 1.9.32.0.8 is required.", "LiveSplit.Fallout3",
+                _uiThread.Send(d => MessageBox.Show("Unexpected game version. Fallout3 1.7.0.3 is required.", "LiveSplit.Fallout3",
                     MessageBoxButtons.OK, MessageBoxIcon.Error), null);
                 return null;
             }

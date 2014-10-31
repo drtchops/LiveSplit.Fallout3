@@ -17,15 +17,15 @@ If the plugin is not working with this process, download the plugin from the [re
 
 Configure
 ---------
-Due to bugs in LiveSplit 1.4.0, it's recommended to deactivate LiveSplit.Fallout3 in the Splits Editor after activating (downloading) it the first time. Instead, you should activate it in the Layout Editor, under the "Control" category. Double-click "Fallout3" after adding it to your layout to bring up the settings.
+Open your Splits Editor and active the autosplitter. If this is not working, leave it deactivated and manually add it in the Layout Editor. You can configure the settings in whichever editor it has been enabled in.
 
-After configuring everything you'll most likely want to turn on game time as primary timing, so that your splits will run off game time. You can do this by right-clicking LiveSplit and going to Compare Against->Game Time.
+After configuring everything you'll most likely want to turn on game time as primary timing, so that your splits will run off game time. You can do this by right-clicking LiveSplit and going to Compare Against -> Game Time.
 
 #### Auto Split
-The default settings are to automatically reset, start, and end the splits (the first and last splits). You can enable Helgen and guild autosplitting here.
+The default settings are to automatically reset, start, and end the splits (the first and last splits). You can enable individual splits here.
 
 #### Alternate Timing Method
-This makes it show Real Time when comparing against Game Time, and vice versa. Doesn't work when LiveSplit.Fallout3 is activated via the Splits Editor.
+If you wish to show Real Time on your layout, download AlternateTimingMethod from the [LiveSplit Components page](http://livesplit.org/components/) or its own [Github page](https://github.com/Dalet/LiveSplit.AlternateTimingMethod/releases).
 
 Change Log
 ----------
